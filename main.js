@@ -21,13 +21,8 @@ function delimitadoresF(ingreso) {
             }
         }
         else{
-            if (element === delimitadores[pila[pila.length - 1]]) {
-                pila.pop();
-            }
-            else{
-                console.log('False');
-            }
-        }
+            console.log('FALSE');
+                }
     }
     console.log(pila);
     
