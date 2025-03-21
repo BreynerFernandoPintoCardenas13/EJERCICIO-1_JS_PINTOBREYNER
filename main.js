@@ -20,8 +20,7 @@ function delimitadoresF(ingreso) {
             }
         }
         else{
-            
-                        }
+                }
     }
     console.log(pila);
     
