@@ -10,9 +10,8 @@ function delimitadoresF(ingreso) {
     let pila = [];
     for (let i = 0; i < ingreso.length; i++) {
         let element = ingreso[i];
-        if (element in delimitadores) {
-            pila.push(element);
-            
+        pila.push(element);
+        if (element in delimitadores) {            
             if (pila.length === '({[]})' || '()' || '{}' || '[]' || '{[]}' || '[{}]' || '({}])' || '({})]' || '[({})]' || '[{()}]' || '{[()]}') {
                 console.log('True');
             }  
@@ -21,8 +20,8 @@ function delimitadoresF(ingreso) {
             }
         }
         else{
-            console.log('FALSE');
-                }
+        }
+                        }
     }
     console.log(pila);
     
